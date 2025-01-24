@@ -1,0 +1,155 @@
+/* General styles */
+body {
+    background-color: #F5F5F5;
+    /* Light background */
+    color: #121212;
+    /* Dark text color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+/* Buttons */
+button,
+.btn {
+    border-radius: 5px;
+}
+
+.btn-outline-primary {
+    color: #1976D2;
+    /* Darker blue for contrast */
+    border-color: #1976D2;
+}
+
+.btn-outline-primary:hover {
+    background-color: #1976D2;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #FFEB3B;
+    border-color: #FFEB3B;
+    color: #121212;
+}
+
+.btn-primary:hover {
+    background-color: #FFC107;
+}
+
+/* Links */
+a {
+    color: #1976D2;
+}
+
+a:hover {
+    color: #FFB300;
+}
+
+/* Forms and Inputs */
+.form-control {
+    background-color: #FFFFFF;
+    color: #121212;
+    border: 1px solid #CCC;
+}
+
+.form-control:focus {
+    background-color: #FFFFFF;
+    color: #FFB300;
+    border-color: #FFB300;
+}
+
+/* Headings */
+h2,
+h3 {
+    color: #FFB300;
+}
+
+/* Inbox and Compose view styling */
+#emails-view,
+#view-email-view,
+#compose-view {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Textarea */
+textarea {
+    min-height: 400px;
+    background-color: #FFFFFF;
+    color: #121212;
+    border: 1px solid #CCC;
+}
+
+textarea:focus {
+    border-color: #FFB300;
+}
+
+/* Alert message */
+.alert {
+    background-color: #FFF9C4;
+    color: #FFB300;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Message Box Styling */
+.message-box {
+    background-color: #FFFFFF;
+    border: 1px solid #CCC;
+    color: #121212;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.message-box:hover {
+    background-color: #F0F0F0;
+}
+
+.message-header {
+    font-weight: bold;
+    color: #FFB300;
+}
+
+.message-subject {
+    color: #1976D2;
+    font-size: 1.1em;
+}
+
+.message-timestamp {
+    color: #666;
+    font-size: 0.9em;
+    float: right;
+}
+
+/* Unread messages style */
+.message-box.unread {
+    background-color: #FFFDE7;
+    border-left: 4px solid #FFB300;
+}
+
+/* Buttons for actions (archive, delete) */
+.message-actions {
+    margin-top: 10px;
+}
+
+.message-actions button {
+    margin-right: 5px;
+    background-color: #FFFFFF;
+    color: #FFB300;
+    border: 1px solid #FFB300;
+}
+
+.message-actions button:hover {
+    background-color: #FFB300;
+    color: #FFFFFF;
+}
