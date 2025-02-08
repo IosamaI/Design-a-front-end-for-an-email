@@ -1,5 +1,8 @@
 # Design a front-end for an email client that makes API calls to send and receive emails
 
+<img width="1114" alt="email" src="https://github.com/user-attachments/assets/28c7b5bb-c257-45f5-b584-d94bb32e1207" />
+
+
 
 This project implements a single-page email client using JavaScript, HTML, and CSS. The client allows users to send, receive, archive, and organize emails, fulfilling all the requirements set by the CS50W specification.
 
